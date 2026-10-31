@@ -1,0 +1,301 @@
+{
+  "metadados": {
+    "titulo": "Base de conhecimento do Consultor de Carreiras em TI",
+    "versao": "2.0",
+    "escala_likert": {
+      "minimo": 1,
+      "maximo": 5,
+      "rotulos": {
+        "1": "Muito baixa",
+        "2": "Baixa",
+        "3": "Moderada",
+        "4": "Alta",
+        "5": "Muito alta"
+      }
+    }
+  },
+  "perguntas": [
+    {"id": "matematica", "titulo": "Tenho afinidade com matemática, estatística e raciocínio quantitativo."},
+    {"id": "logica", "titulo": "Gosto de resolver problemas lógicos e decompor problemas complexos."},
+    {"id": "programacao", "titulo": "Tenho interesse em escrever código e construir soluções de software."},
+    {"id": "design", "titulo": "Tenho interesse por design visual, interfaces e estética."},
+    {"id": "experiencia_usuario", "titulo": "Gosto de pensar na experiência e nas necessidades do usuário."},
+    {"id": "dados", "titulo": "Tenho curiosidade para analisar dados e encontrar padrões."},
+    {"id": "banco_dados", "titulo": "Tenho interesse por bancos de dados, consultas e organização de informações."},
+    {"id": "infraestrutura", "titulo": "Tenho interesse por sistemas operacionais, redes e infraestrutura."},
+    {"id": "seguranca", "titulo": "Gosto de investigar riscos, vulnerabilidades e formas de proteção."},
+    {"id": "automacao", "titulo": "Gosto de automatizar tarefas e melhorar processos de entrega."},
+    {"id": "cloud", "titulo": "Tenho interesse por computação em nuvem e sistemas escaláveis."},
+    {"id": "mobile", "titulo": "Tenho interesse em criar aplicativos para dispositivos móveis."},
+    {"id": "qualidade", "titulo": "Tenho atenção aos detalhes e interesse em testes e qualidade."},
+    {"id": "produto", "titulo": "Gosto de entender problemas e transformar necessidades em produtos."},
+    {"id": "comunicacao", "titulo": "Tenho facilidade ou interesse em comunicar, negociar e alinhar pessoas."},
+    {"id": "gestao", "titulo": "Tenho interesse em planejamento, priorização e acompanhamento de resultados."}
+  ],
+  "objetivos": [
+    {"id": "desenvolvimento", "nome": "Construir aplicações e funcionalidades"},
+    {"id": "dados", "nome": "Trabalhar com dados e gerar insights"},
+    {"id": "infraestrutura", "nome": "Projetar e operar infraestrutura"},
+    {"id": "seguranca", "nome": "Proteger sistemas e informações"},
+    {"id": "qualidade", "nome": "Garantir qualidade e confiabilidade"},
+    {"id": "produto", "nome": "Conectar tecnologia e necessidades do negócio"}
+  ],
+  "conhecimentos": [
+    {"id": "programacao", "nome": "Programação e desenvolvimento", "descricao": "Lógica, linguagens e construção de aplicações."},
+    {"id": "banco_dados", "nome": "Bancos de dados", "descricao": "Modelagem, SQL e persistência de dados."},
+    {"id": "dados", "nome": "Análise e engenharia de dados", "descricao": "Tratamento, análise e movimentação de dados."},
+    {"id": "infraestrutura", "nome": "Infraestrutura e redes", "descricao": "Sistemas operacionais, redes e servidores."},
+    {"id": "seguranca", "nome": "Segurança da informação", "descricao": "Controles, vulnerabilidades e proteção."},
+    {"id": "automacao", "nome": "Automação e entrega", "descricao": "Scripts, integração contínua e operações."},
+    {"id": "cloud", "nome": "Computação em nuvem", "descricao": "Serviços cloud, arquitetura e escalabilidade."},
+    {"id": "design", "nome": "Design e experiência do usuário", "descricao": "Interfaces, acessibilidade e usabilidade."},
+    {"id": "mobile", "nome": "Desenvolvimento mobile", "descricao": "Aplicações e experiências para dispositivos móveis."},
+    {"id": "qualidade", "nome": "Testes e qualidade", "descricao": "Testes, prevenção de falhas e confiabilidade."},
+    {"id": "produto", "nome": "Produto e negócio", "descricao": "Descoberta, priorização e comunicação de valor."}
+  ],
+  "trilhas": {
+    "backend": {
+      "nome": "Desenvolvimento Back-end",
+      "descricao": "Construção de APIs, serviços, regras de negócio e integrações.",
+      "competencias_junior": [
+        {"id": "python", "nome": "Uma linguagem de programação", "dominio": "programacao", "nivel_junior": 3, "tecnologias": ["Python", "Java ou JavaScript"]},
+        {"id": "apis", "nome": "APIs e serviços web", "dominio": "programacao", "nivel_junior": 3, "tecnologias": ["HTTP", "REST", "FastAPI ou Spring"]},
+        {"id": "sql_backend", "nome": "Persistência de dados", "dominio": "banco_dados", "nivel_junior": 3, "tecnologias": ["SQL", "PostgreSQL"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Fundamentos de programação", "tecnologias": ["Python", "Git", "estruturas de dados"], "entrega": "API de cadastro com validação e testes."},
+        {"ordem": 2, "titulo": "APIs e persistência", "tecnologias": ["HTTP", "FastAPI", "PostgreSQL", "Docker"], "entrega": "API documentada conectada a um banco de dados."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["autenticação", "deploy", "testes automatizados"], "entrega": "Sistema de gestão de tarefas publicado no GitHub."
+        }
+      ],
+      "certificacoes": ["AWS Certified Cloud Practitioner", "PCEP – Python Entry-Level Programmer"],
+      "projeto_portfolio": "API de gestão de tarefas com autenticação, banco de dados, documentação e testes."
+    },
+    "frontend": {
+      "nome": "Desenvolvimento Front-end & UI/UX",
+      "descricao": "Criação de interfaces acessíveis, responsivas e centradas no usuário.",
+      "competencias_junior": [
+        {"id": "web", "nome": "Fundamentos da web", "dominio": "programacao", "nivel_junior": 3, "tecnologias": ["HTML", "CSS", "JavaScript"]},
+        {"id": "interface", "nome": "Design de interfaces", "dominio": "design", "nivel_junior": 3, "tecnologias": ["Figma", "design responsivo", "acessibilidade"]},
+        {"id": "frontend_testes", "nome": "Qualidade no front-end", "dominio": "qualidade", "nivel_junior": 2, "tecnologias": ["Vitest", "testes de interface"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Base visual e web", "tecnologias": ["HTML", "CSS", "JavaScript", "Figma"], "entrega": "Página responsiva com protótipo e documentação das decisões."},
+        {"ordem": 2, "titulo": "Interfaces de aplicação", "tecnologias": ["React", "TypeScript", "acessibilidade"], "entrega": "Painel responsivo consumindo uma API pública."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["React", "testes", "deploy"], "entrega": "Aplicação de catálogo com fluxo completo de busca e favoritos."
+        }
+      ],
+      "certificacoes": ["Google UX Design Certificate", "freeCodeCamp Responsive Web Design"],
+      "projeto_portfolio": "Aplicação responsiva com protótipo no Figma, acessibilidade, testes e publicação."
+    },
+    "dados": {
+      "nome": "Ciência de Dados e Machine Learning",
+      "descricao": "Análise de dados, experimentação, estatística e modelos preditivos.",
+      "competencias_junior": [
+        {"id": "python_dados", "nome": "Programação para dados", "dominio": "programacao", "nivel_junior": 3, "tecnologias": ["Python", "Pandas", "Jupyter"]},
+        {"id": "estatistica", "nome": "Estatística aplicada", "dominio": "dados", "nivel_junior": 3, "tecnologias": ["estatística descritiva", "probabilidade"]},
+        {"id": "modelagem", "nome": "Modelagem e avaliação", "dominio": "dados", "nivel_junior": 3, "tecnologias": ["scikit-learn", "métricas", "visualização"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Fundamentos quantitativos", "tecnologias": ["Python", "Pandas", "SQL", "estatística"], "entrega": "Análise exploratória de um conjunto de dados público."},
+        {"ordem": 2, "titulo": "Modelos e comunicação", "tecnologias": ["scikit-learn", "visualização", "métricas"], "entrega": "Modelo preditivo com relatório sobre limitações e resultados."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["Streamlit", "Jupyter", "Git"], "entrega": "Dashboard interativo com dados, hipóteses e recomendações."
+        }
+      ],
+      "certificacoes": ["Google Advanced Data Analytics", "Microsoft Azure Data Fundamentals (DP-900)"],
+      "projeto_portfolio": "Estudo completo de dados públicos, da limpeza à apresentação de um modelo ou dashboard."
+    },
+    "engenharia_dados": {
+      "nome": "Engenharia de Dados",
+      "descricao": "Construção de pipelines, plataformas e bases confiáveis para análise.",
+      "competencias_junior": [
+        {"id": "sql_dados", "nome": "SQL e modelagem", "dominio": "banco_dados", "nivel_junior": 3, "tecnologias": ["SQL", "PostgreSQL", "modelagem dimensional"]},
+        {"id": "pipelines", "nome": "Pipelines de dados", "dominio": "dados", "nivel_junior": 3, "tecnologias": ["Python", "Airflow", "ETL/ELT"]},
+        {"id": "cloud_dados", "nome": "Armazenamento e processamento", "dominio": "cloud", "nivel_junior": 2, "tecnologias": ["object storage", "Spark", "particionamento"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "SQL e modelagem", "tecnologias": ["SQL", "PostgreSQL", "modelagem dimensional"], "entrega": "Banco analítico documentado a partir de dados públicos."},
+        {"ordem": 2, "titulo": "Pipelines confiáveis", "tecnologias": ["Python", "Airflow", "Docker", "qualidade de dados"], "entrega": "Pipeline agendado com validações e registro de falhas."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["Spark", "cloud storage", "monitoramento"], "entrega": "Plataforma que ingere, transforma e disponibiliza dados para um dashboard."
+        }
+      ],
+      "certificacoes": ["Astronomer Certification for Apache Airflow", "AWS Certified Cloud Practitioner"],
+      "projeto_portfolio": "Pipeline de dados públicos com ingestão, transformação, testes de qualidade e documentação."
+    },
+    "seguranca": {
+      "nome": "Cibersegurança",
+      "descricao": "Identificação de riscos, defesa, monitoramento e testes de segurança.",
+      "competencias_junior": [
+        {"id": "redes_seg", "nome": "Redes e sistemas", "dominio": "infraestrutura", "nivel_junior": 3, "tecnologias": ["TCP/IP", "Linux", "Wireshark"]},
+        {"id": "fundamentos_seg", "nome": "Fundamentos de segurança", "dominio": "seguranca", "nivel_junior": 3, "tecnologias": ["OWASP", "IAM", "criptografia básica"]},
+        {"id": "analise_seg", "nome": "Análise de incidentes", "dominio": "seguranca", "nivel_junior": 2, "tecnologias": ["logs", "SIEM", "resposta a incidentes"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Redes e Linux", "tecnologias": ["Linux", "TCP/IP", "Bash", "Wireshark"], "entrega": "Laboratório documentado de análise de tráfego em ambiente controlado."},
+        {"ordem": 2, "titulo": "Defesa e vulnerabilidades", "tecnologias": ["OWASP", "Nmap", "logs", "IAM"], "entrega": "Relatório de riscos e plano de correção para uma aplicação de laboratório."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["SIEM", "hardening", "automação"], "entrega": "Playbook de resposta a incidentes com evidências e medidas preventivas."
+        }
+      ],
+      "certificacoes": ["CompTIA Security+", "ISC2 Certified in Cybersecurity (CC)"],
+      "projeto_portfolio": "Laboratório seguro com análise de vulnerabilidades, hardening e relatório de correções."
+    },
+    "devops": {
+      "nome": "DevOps & SRE",
+      "descricao": "Automação, entrega contínua, observabilidade e confiabilidade de sistemas.",
+      "competencias_junior": [
+        {"id": "linux_devops", "nome": "Linux e redes", "dominio": "infraestrutura", "nivel_junior": 3, "tecnologias": ["Linux", "redes", "Bash"]},
+        {"id": "ci_cd", "nome": "Integração e entrega contínuas", "dominio": "automacao", "nivel_junior": 3, "tecnologias": ["GitHub Actions", "Docker", "CI/CD"]},
+        {"id": "observabilidade", "nome": "Observabilidade", "dominio": "cloud", "nivel_junior": 2, "tecnologias": ["logs", "métricas", "alertas"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Linux e automação", "tecnologias": ["Linux", "Bash", "Git", "redes"], "entrega": "Scripts de provisionamento e operação de um serviço."},
+        {"ordem": 2, "titulo": "Entrega contínua", "tecnologias": ["Docker", "GitHub Actions", "testes", "deploy"], "entrega": "Pipeline que testa, empacota e publica uma aplicação."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["Terraform", "monitoramento", "logs"], "entrega": "Ambiente reproduzível com observabilidade e documentação de incidentes."
+        }
+      ],
+      "certificacoes": ["Linux Essentials (LPI)", "AWS Certified Cloud Practitioner"],
+      "projeto_portfolio": "Aplicação containerizada com pipeline CI/CD, infraestrutura reproduzível e painel de monitoramento."
+    },
+    "cloud": {
+      "nome": "Computação em Nuvem (Cloud Architecture)",
+      "descricao": "Planejamento de arquiteturas escaláveis, seguras e resilientes em nuvem.",
+      "competencias_junior": [
+        {"id": "fundamentos_cloud", "nome": "Fundamentos de nuvem", "dominio": "cloud", "nivel_junior": 3, "tecnologias": ["AWS, Azure ou GCP", "IAM", "redes cloud"]},
+        {"id": "infra_cloud", "nome": "Infraestrutura como código", "dominio": "automacao", "nivel_junior": 2, "tecnologias": ["Terraform", "Docker", "configuração"]},
+        {"id": "arquitetura", "nome": "Arquitetura e escalabilidade", "dominio": "infraestrutura", "nivel_junior": 3, "tecnologias": ["alta disponibilidade", "balanceamento", "observabilidade"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Fundamentos cloud", "tecnologias": ["AWS, Azure ou GCP", "IAM", "redes"], "entrega": "Arquitetura desenhada e implementada em ambiente de laboratório."},
+        {"ordem": 2, "titulo": "Escalabilidade e automação", "tecnologias": ["Terraform", "Docker", "balanceamento", "monitoramento"], "entrega": "Serviço escalável com infraestrutura versionada."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["serverless ou containers", "segurança", "custos"], "entrega": "Estudo de arquitetura com decisões, custos estimados e testes de carga."
+        }
+      ],
+      "certificacoes": ["AWS Certified Cloud Practitioner", "Microsoft Azure Fundamentals (AZ-900)"],
+      "projeto_portfolio": "Arquitetura cloud documentada com infraestrutura como código, segurança, custos e teste de escalabilidade."
+    },
+    "mobile": {
+      "nome": "Desenvolvimento Mobile",
+      "descricao": "Construção de aplicações móveis úteis, acessíveis e consistentes.",
+      "competencias_junior": [
+        {"id": "programacao_mobile", "nome": "Programação de aplicativos", "dominio": "programacao", "nivel_junior": 3, "tecnologias": ["Dart/Flutter ou Kotlin", "Git"]},
+        {"id": "interface_mobile", "nome": "Interface mobile", "dominio": "mobile", "nivel_junior": 3, "tecnologias": ["Flutter ou React Native", "design responsivo"]},
+        {"id": "qualidade_mobile", "nome": "Qualidade e publicação", "dominio": "qualidade", "nivel_junior": 2, "tecnologias": ["testes", "CI", "lojas de aplicativos"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Fundamentos mobile", "tecnologias": ["Dart/Flutter ou Kotlin", "Git", "componentes de interface"], "entrega": "Aplicativo com múltiplas telas e navegação."},
+        {"ordem": 2, "titulo": "Dados e experiência", "tecnologias": ["consumo de API", "persistência local", "acessibilidade"], "entrega": "Aplicativo que consome dados e funciona com estados de carregamento e erro."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["testes", "CI", "publicação"], "entrega": "Aplicativo publicado ou demonstrado com documentação e vídeo."
+        }
+      ],
+      "certificacoes": ["Meta React Native Specialization", "Google Associate Android Developer (quando disponível)"],
+      "projeto_portfolio": "Aplicativo mobile com consumo de API, persistência local, testes e documentação de experiência."
+    },
+    "qa": {
+      "nome": "Engenharia de Qualidade e Testes (QA)",
+      "descricao": "Prevenção de defeitos, testes automatizados e confiabilidade de produtos digitais.",
+      "competencias_junior": [
+        {"id": "testes_manua", "nome": "Fundamentos de testes", "dominio": "qualidade", "nivel_junior": 3, "tecnologias": ["casos de teste", "técnicas de teste", "bug tracking"]},
+        {"id": "automacao_qa", "nome": "Automação de testes", "dominio": "programacao", "nivel_junior": 2, "tecnologias": ["Python ou JavaScript", "Playwright", "pytest"]},
+        {"id": "api_qa", "nome": "Testes de API e integração", "dominio": "qualidade", "nivel_junior": 3, "tecnologias": ["Postman", "REST", "CI"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Fundamentos de qualidade", "tecnologias": ["casos de teste", "técnicas de teste", "bug tracking"], "entrega": "Plano de testes e relatório de defeitos de uma aplicação."},
+        {"ordem": 2, "titulo": "Automação", "tecnologias": ["Playwright", "pytest", "Postman", "CI"], "entrega": "Suíte automatizada para interface e API."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["relatórios", "pipeline", "testes de regressão"], "entrega": "Projeto com estratégia de testes, automação e execução em pipeline."
+        }
+      ],
+      "certificacoes": ["ISTQB Certified Tester Foundation Level", "Postman API Fundamentals Student Expert"],
+      "projeto_portfolio": "Estratégia de testes com casos, automação de API e interface, evidências e integração contínua."
+    },
+    "produto": {
+      "nome": "Gestão de Produtos (Product Management)",
+      "descricao": "Descoberta, priorização e acompanhamento de produtos que geram valor.",
+      "competencias_junior": [
+        {"id": "descoberta", "nome": "Descoberta de problemas", "dominio": "produto", "nivel_junior": 3, "tecnologias": ["entrevistas", "personas", "jornada do usuário"]},
+        {"id": "priorizacao", "nome": "Priorização e planejamento", "dominio": "produto", "nivel_junior": 3, "tecnologias": ["roadmap", "backlog", "RICE"]},
+        {"id": "comunicacao_produto", "nome": "Comunicação com equipes", "dominio": "comunicacao", "nivel_junior": 3, "tecnologias": ["documentação", "facilitação", "métricas"]}
+      ],
+      "roadmap": [
+        {"ordem": 1, "titulo": "Problema e usuário", "tecnologias": ["entrevistas", "personas", "jornada do usuário"], "entrega": "Pesquisa documentada com problema, evidências e hipótese."},
+        {"ordem": 2, "titulo": "Priorização e métricas", "tecnologias": ["backlog", "roadmap", "RICE", "OKRs"], "entrega": "Roadmap priorizado com critérios e indicadores de sucesso."},
+        {"ordem": 3, "titulo": "Projeto de portfólio", "tecnologias": ["prototipação", "analytics", "documentação"], "entrega": "Case de produto com descoberta, decisão, protótipo e resultados esperados."
+        }
+      ],
+      "certificacoes": ["Certified Scrum Product Owner (CSPO)", "Product School Product Manager Certificate"],
+      "projeto_portfolio": "Case de produto com pesquisa, priorização, protótipo, roadmap e métricas de sucesso."
+    }
+  },
+  "regras": [
+    {"id": "R01", "trilha": "backend", "condicoes": [{"campo": "atividade", "valor": "logica"}, {"campo": "entrega", "valor": "funcionalidades"}], "peso": 4, "justificativa": "Você prefere resolver problemas lógicos e implementar funcionalidades."},
+    {"id": "R02", "trilha": "backend", "condicoes": [{"campo": "ferramenta", "valor": "python"}, {"campo": "atividade", "valor": "algoritmos"}], "peso": 3, "justificativa": "Sua afinidade com Python e algoritmos combina com a lógica de serviços."},
+    {"id": "R03", "trilha": "backend", "condicoes": [{"campo": "atividade", "valor": "bancos"}, {"campo": "entrega", "valor": "regras_negocio"}], "peso": 4, "justificativa": "Você demonstra interesse em bancos de dados e regras de negócio."},
+    {"id": "R04", "trilha": "frontend", "condicoes": [{"campo": "atividade", "valor": "interfaces"}, {"campo": "entrega", "valor": "produto_usuario"}], "peso": 5, "justificativa": "Você prioriza interfaces e o resultado percebido diretamente pelo usuário."},
+    {"id": "R05", "trilha": "frontend", "condicoes": [{"campo": "ferramenta", "valor": "javascript"}, {"campo": "atividade", "valor": "visual"}], "peso": 4, "justificativa": "JavaScript e interesse visual são afinidades comuns no desenvolvimento front-end."},
+    {"id": "R06", "trilha": "frontend", "condicoes": [{"campo": "estilo", "valor": "criativo"}, {"campo": "atividade", "valor": "experiencia_usuario"}], "peso": 3, "justificativa": "Seu perfil criativo e seu interesse na experiência do usuário favorecem UI/UX."},
+    {"id": "R07", "trilha": "dados", "condicoes": [{"campo": "matematica", "valor": "alta"}, {"campo": "atividade", "valor": "estatistica"}], "peso": 5, "justificativa": "Alta afinidade matemática e interesse em estatística favorecem Ciência de Dados."},
+    {"id": "R08", "trilha": "dados", "condicoes": [{"campo": "ferramenta", "valor": "python"}, {"campo": "atividade", "valor": "modelos"}], "peso": 4, "justificativa": "Python e interesse em modelos preditivos combinam com análise e aprendizado de máquina."},
+    {"id": "R09", "trilha": "dados", "condicoes": [{"campo": "matematica", "valores": ["media", "alta"]}, {"campo": "entrega", "valor": "insights"}], "peso": 3, "justificativa": "Você quer transformar dados em insights e possui afinidade matemática ao menos moderada."},
+    {"id": "R10", "trilha": "engenharia_dados", "condicoes": [{"campo": "atividade", "valor": "pipelines"}, {"campo": "entrega", "valor": "dados_disponiveis"}], "peso": 5, "justificativa": "Você prefere construir pipelines que disponibilizam dados confiáveis."},
+    {"id": "R11", "trilha": "engenharia_dados", "condicoes": [{"campo": "atividade", "valor": "integracao_dados"}, {"campo": "ferramenta", "valor": "sql"}], "peso": 4, "justificativa": "SQL e integração de fontes são úteis para engenharia de dados."},
+    {"id": "R12", "trilha": "engenharia_dados", "condicoes": [{"campo": "estilo", "valor": "sistemas"}, {"campo": "entrega", "valor": "infraestrutura_dados"}], "peso": 3, "justificativa": "Você se interessa pela infraestrutura que armazena e movimenta dados."},
+    {"id": "R13", "trilha": "seguranca", "condicoes": [{"campo": "atividade", "valor": "seguranca"}, {"campo": "entrega", "valor": "protecao"}], "peso": 5, "justificativa": "Seu foco em segurança e proteção é central para Cibersegurança."},
+    {"id": "R14", "trilha": "seguranca", "condicoes": [{"campo": "ferramenta", "valor": "linux_redes"}, {"campo": "atividade", "valor": "vulnerabilidades"}], "peso": 5, "justificativa": "Linux, redes e investigação de vulnerabilidades apontam para Security/Pentesting."},
+    {"id": "R15", "trilha": "seguranca", "condicoes": [{"campo": "estilo", "valor": "investigativo"}, {"campo": "entrega", "valor": "sistemas_seguros"}], "peso": 3, "justificativa": "Seu estilo investigativo e o interesse em sistemas seguros reforçam essa trilha."},
+    {"id": "R16", "trilha": "devops", "condicoes": [{"campo": "atividade", "valor": "automacao"}, {"campo": "entrega", "valor": "entrega_continua"}], "peso": 5, "justificativa": "Automação e entrega contínua são atividades essenciais em DevOps/SRE."},
+    {"id": "R17", "trilha": "devops", "condicoes": [{"campo": "ferramenta", "valor": "linux_redes"}, {"campo": "atividade", "valor": "infra_automacao"}], "peso": 4, "justificativa": "Sua afinidade com Linux e automação combina com operações e confiabilidade."},
+    {"id": "R18", "trilha": "devops", "condicoes": [{"campo": "estilo", "valor": "sistemas"}, {"campo": "entrega", "valor": "disponibilidade"}], "peso": 3, "justificativa": "Você valoriza disponibilidade e estabilidade dos sistemas."},
+    {"id": "R19", "trilha": "cloud", "condicoes": [{"campo": "atividade", "valor": "cloud"}, {"campo": "entrega", "valor": "infraestrutura"}], "peso": 5, "justificativa": "Você prefere planejar e administrar infraestrutura escalável."},
+    {"id": "R20", "trilha": "cloud", "condicoes": [{"campo": "ferramenta", "valor": "cloud"}, {"campo": "atividade", "valor": "escalabilidade"}], "peso": 5, "justificativa": "Sua afinidade com ferramentas cloud e escalabilidade aponta para arquitetura em nuvem."},
+    {"id": "R21", "trilha": "cloud", "condicoes": [{"campo": "estilo", "valor": "sistemas"}, {"campo": "entrega", "valor": "infraestrutura"}], "peso": 2, "justificativa": "Seu interesse pela infraestrutura de sistemas também favorece Computação em Nuvem."},
+    {"id": "R22", "trilha": "mobile", "condicoes": [{"campo": "atividade", "valor": "aplicativos"}, {"campo": "entrega", "valor": "produto_usuario"}], "peso": 5, "justificativa": "Você quer desenvolver aplicativos utilizados diretamente pelas pessoas."},
+    {"id": "R23", "trilha": "mobile", "condicoes": [{"campo": "ferramenta", "valor": "javascript"}, {"campo": "atividade", "valor": "aplicativos"}], "peso": 3, "justificativa": "JavaScript pode ser aproveitado em soluções mobile multiplataforma."},
+    {"id": "R24", "trilha": "mobile", "condicoes": [{"campo": "estilo", "valor": "criativo"}, {"campo": "entrega", "valor": "aplicativo"}], "peso": 3, "justificativa": "Seu perfil criativo e interesse em aplicativos combinam com desenvolvimento mobile."},
+    {"id": "R25", "trilha": "qa", "condicoes": [{"campo": "atividade", "valor": "testes"}, {"campo": "entrega", "valor": "qualidade"}], "peso": 5, "justificativa": "Você prefere validar o comportamento do sistema e garantir a qualidade."},
+    {"id": "R26", "trilha": "qa", "condicoes": [{"campo": "ferramenta", "valor": "testes"}, {"campo": "atividade", "valor": "investigar_erros"}], "peso": 5, "justificativa": "Sua afinidade com ferramentas de teste e investigação de erros favorece QA."},
+    {"id": "R27", "trilha": "qa", "condicoes": [{"campo": "estilo", "valor": "detalhista"}, {"campo": "entrega", "valor": "confiabilidade"}], "peso": 4, "justificativa": "Atenção aos detalhes e preocupação com confiabilidade são importantes em QA."},
+    {"id": "R28", "trilha": "produto", "condicoes": [{"campo": "atividade", "valor": "priorizacao"}, {"campo": "entrega", "valor": "valor_negocio"}], "peso": 5, "justificativa": "Você gosta de priorizar demandas e conectar entregas ao valor de negócio."},
+    {"id": "R29", "trilha": "produto", "condicoes": [{"campo": "atividade", "valor": "comunicacao"}, {"campo": "estilo", "valor": "colaborativo"}], "peso": 4, "justificativa": "Comunicação e colaboração são competências importantes em gestão de produtos."},
+    {"id": "R30", "trilha": "produto", "condicoes": [{"campo": "ferramenta", "valor": "gestao"}, {"campo": "entrega", "valor": "valor_negocio"}], "peso": 4, "justificativa": "Sua afinidade com ferramentas de gestão e foco no negócio favorecem Product Management."},
+    {"id": "A01", "trilha": "backend", "condicoes": [{"campo": "logica", "minimo": 4}, {"campo": "programacao", "minimo": 3}], "peso": 6, "justificativa": "Lógica e programação são fundamentos importantes para Back-end."},
+    {"id": "A02", "trilha": "backend", "condicoes": [{"campo": "banco_dados", "minimo": 4}, {"campo": "programacao", "minimo": 3}], "peso": 5, "justificativa": "Seu interesse por dados e programação combina com serviços e APIs."},
+    {"id": "A03", "trilha": "backend", "condicoes": [{"campo": "objetivo", "valor": "desenvolvimento"}, {"campo": "logica", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de construir aplicações reforça a trilha Back-end."},
+    {"id": "A04", "trilha": "frontend", "condicoes": [{"campo": "design", "minimo": 4}, {"campo": "experiencia_usuario", "minimo": 4}], "peso": 6, "justificativa": "Design e experiência do usuário são centrais em Front-end e UI/UX."},
+    {"id": "A05", "trilha": "frontend", "condicoes": [{"campo": "objetivo", "valor": "desenvolvimento"}, {"campo": "design", "minimo": 3}], "peso": 3, "justificativa": "Construir aplicações com interesse visual favorece Front-end."},
+    {"id": "A06", "trilha": "frontend", "condicoes": [{"campo": "experiencia_usuario", "minimo": 4}, {"campo": "qualidade", "minimo": 3}], "peso": 4, "justificativa": "Uma boa experiência depende de interfaces cuidadosas e confiáveis."},
+    {"id": "A07", "trilha": "dados", "condicoes": [{"campo": "matematica", "minimo": 4}, {"campo": "dados", "minimo": 4}], "peso": 6, "justificativa": "Matemática e análise de dados são afinidades fortes para Ciência de Dados."},
+    {"id": "A08", "trilha": "dados", "condicoes": [{"campo": "matematica", "minimo": 3}, {"campo": "programacao", "minimo": 3}, {"campo": "dados", "minimo": 4}], "peso": 5, "justificativa": "Programação, dados e raciocínio quantitativo sustentam modelos analíticos."},
+    {"id": "A09", "trilha": "dados", "condicoes": [{"campo": "objetivo", "valor": "dados"}, {"campo": "dados", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de trabalhar com dados reforça Ciência de Dados."},
+    {"id": "A10", "trilha": "engenharia_dados", "condicoes": [{"campo": "dados", "minimo": 4}, {"campo": "banco_dados", "minimo": 4}], "peso": 6, "justificativa": "Dados e bancos formam a base da Engenharia de Dados."},
+    {"id": "A11", "trilha": "engenharia_dados", "condicoes": [{"campo": "infraestrutura", "minimo": 3}, {"campo": "dados", "minimo": 4}], "peso": 5, "justificativa": "Você combina interesse por infraestrutura e movimentação de dados."},
+    {"id": "A12", "trilha": "engenharia_dados", "condicoes": [{"campo": "objetivo", "valor": "dados"}, {"campo": "banco_dados", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de trabalhar com dados e interesse por bancos favorecem a trilha."},
+    {"id": "A13", "trilha": "seguranca", "condicoes": [{"campo": "seguranca", "minimo": 4}, {"campo": "infraestrutura", "minimo": 3}], "peso": 6, "justificativa": "Segurança e infraestrutura são bases para proteger sistemas."},
+    {"id": "A14", "trilha": "seguranca", "condicoes": [{"campo": "seguranca", "minimo": 4}, {"campo": "logica", "minimo": 3}], "peso": 5, "justificativa": "Investigação e raciocínio lógico ajudam a encontrar vulnerabilidades."},
+    {"id": "A15", "trilha": "seguranca", "condicoes": [{"campo": "objetivo", "valor": "seguranca"}, {"campo": "seguranca", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de proteger sistemas reforça Cibersegurança."},
+    {"id": "A16", "trilha": "devops", "condicoes": [{"campo": "automacao", "minimo": 4}, {"campo": "infraestrutura", "minimo": 4}], "peso": 6, "justificativa": "Automação e infraestrutura são pilares de DevOps e SRE."},
+    {"id": "A17", "trilha": "devops", "condicoes": [{"campo": "cloud", "minimo": 4}, {"campo": "automacao", "minimo": 3}], "peso": 5, "justificativa": "Cloud e automação favorecem operações reproduzíveis e confiáveis."},
+    {"id": "A18", "trilha": "devops", "condicoes": [{"campo": "objetivo", "valor": "infraestrutura"}, {"campo": "automacao", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de operar infraestrutura reforça DevOps/SRE."},
+    {"id": "A19", "trilha": "cloud", "condicoes": [{"campo": "cloud", "minimo": 4}, {"campo": "infraestrutura", "minimo": 4}], "peso": 6, "justificativa": "Nuvem e infraestrutura são afinidades centrais em Cloud Architecture."},
+    {"id": "A20", "trilha": "cloud", "condicoes": [{"campo": "cloud", "minimo": 4}, {"campo": "logica", "minimo": 3}], "peso": 5, "justificativa": "Projetar soluções cloud exige raciocínio sistêmico e escalabilidade."},
+    {"id": "A21", "trilha": "cloud", "condicoes": [{"campo": "objetivo", "valor": "infraestrutura"}, {"campo": "cloud", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de trabalhar com infraestrutura reforça Cloud Architecture."},
+    {"id": "A22", "trilha": "mobile", "condicoes": [{"campo": "mobile", "minimo": 4}, {"campo": "design", "minimo": 3}], "peso": 6, "justificativa": "Aplicativos mobile combinam desenvolvimento e cuidado com a interface."},
+    {"id": "A23", "trilha": "mobile", "condicoes": [{"campo": "mobile", "minimo": 4}, {"campo": "programacao", "minimo": 3}], "peso": 5, "justificativa": "Seu interesse por mobile e programação favorece o desenvolvimento de aplicativos."},
+    {"id": "A24", "trilha": "mobile", "condicoes": [{"campo": "objetivo", "valor": "desenvolvimento"}, {"campo": "mobile", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de construir aplicações e interesse mobile combinam."},
+    {"id": "A25", "trilha": "qa", "condicoes": [{"campo": "qualidade", "minimo": 4}, {"campo": "logica", "minimo": 3}], "peso": 6, "justificativa": "Qualidade e raciocínio estruturado favorecem testes de software."},
+    {"id": "A26", "trilha": "qa", "condicoes": [{"campo": "qualidade", "minimo": 4}, {"campo": "programacao", "minimo": 3}], "peso": 5, "justificativa": "Programação amplia a capacidade de automatizar testes."},
+    {"id": "A27", "trilha": "qa", "condicoes": [{"campo": "objetivo", "valor": "qualidade"}, {"campo": "qualidade", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de garantir qualidade reforça a trilha de QA."},
+    {"id": "A28", "trilha": "produto", "condicoes": [{"campo": "produto", "minimo": 4}, {"campo": "comunicacao", "minimo": 4}], "peso": 6, "justificativa": "Produto e comunicação são fundamentais para conectar pessoas e valor."},
+    {"id": "A29", "trilha": "produto", "condicoes": [{"campo": "gestao", "minimo": 4}, {"campo": "comunicacao", "minimo": 3}], "peso": 5, "justificativa": "Planejamento, priorização e comunicação favorecem Product Management."},
+    {"id": "A30", "trilha": "produto", "condicoes": [{"campo": "objetivo", "valor": "produto"}, {"campo": "produto", "minimo": 3}], "peso": 3, "justificativa": "Seu objetivo de conectar tecnologia e negócio reforça Gestão de Produtos."}
+  ],
+  "afinidades": [
+    {"id": "F01", "trilha": "frontend", "condicoes": [{"campo": "atividade", "valor": "interfaces"}], "peso": 4, "justificativa": "Seu interesse por interfaces favorece Front-end e UI/UX."},
+    {"id": "F02", "trilha": "frontend", "condicoes": [{"campo": "estilo", "valor": "criativo"}], "peso": 2, "justificativa": "Seu perfil criativo também favorece a criação de interfaces."}
+  ],
+  "penalidades": [
+    {"id": "P01", "trilha": "backend", "condicoes": [{"campo": "design", "minimo": 4}, {"campo": "programacao", "maximo": 2}], "peso": 3, "justificativa": "A baixa afinidade com programação reduz a aderência ao Back-end."},
+    {"id": "P02", "trilha": "dados", "condicoes": [{"campo": "matematica", "maximo": 2}, {"campo": "dados", "minimo": 4}], "peso": 3, "justificativa": "A baixa afinidade quantitativa indica uma lacuna relevante para Ciência de Dados."},
+    {"id": "P03", "trilha": "seguranca", "condicoes": [{"campo": "seguranca", "maximo": 2}, {"campo": "infraestrutura", "minimo": 4}], "peso": 3, "justificativa": "O interesse por infraestrutura, sem afinidade por segurança, reduz esta aderência."},
+    {"id": "P04", "trilha": "devops", "condicoes": [{"campo": "automacao", "maximo": 2}, {"campo": "infraestrutura", "minimo": 4}], "peso": 3, "justificativa": "DevOps exige automação além do interesse geral por infraestrutura."},
+    {"id": "P05", "trilha": "produto", "condicoes": [{"campo": "comunicacao", "maximo": 2}, {"campo": "produto", "minimo": 4}], "peso": 3, "justificativa": "A comunicação é uma competência essencial para Gestão de Produtos."}
+  ]
+}
