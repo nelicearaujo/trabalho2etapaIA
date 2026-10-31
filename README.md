@@ -3,10 +3,10 @@
 Projeto da disciplina Inteligência Artificial do curso de Ciência da Computação.
 
 **Instituição:** Centro Universitário Presidente Antônio Carlos — UNIPAC Barbacena<br>
-**Professor:** Felipe Roncalli de Paula Carneiro<br>
+**Professor:** Felipe Roncalli <br>
 **Data:** 22/10/2026<br>
-**Nome:** ______________________________________________
-
+**Aluna:** Nelice
+ ___
 ## Objetivo
 
 O sistema atua como um consultor de carreiras e desenvolvimento profissional. A partir de respostas graduais sobre afinidades, objetivos e conhecimentos atuais, ele:
